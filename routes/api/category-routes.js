@@ -37,7 +37,7 @@ router.post('/', async (req, res) => {
     const newCategory = await Category.create(req.body);
     res.status(200).json(newCategory);
   } catch (err) {
-    res.status(500).json(err);
+    res.status(400).json(err);
   }
 });
 
@@ -65,14 +65,13 @@ router.delete('/:id', async (req, res) => {
         id: req.params.id,
       }
     })
-    if(!deleteCategory[0]) {
+    if(!deleteCategory) {
       res.status(404).json({ message: 'No such category id'})
     }
     res.status(200).json({ message: 'Category deleted'})
   } catch (err) {
     res.status(500).json(err);
   }
-  // delete a category by its `id` value
 });
 
 module.exports = router;
