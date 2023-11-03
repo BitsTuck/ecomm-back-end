@@ -4,11 +4,11 @@ Version 1
 Deployed 2 November 2023
 
 
-App demo: https://drive.google.com/file/d/1m9oKLwRYyZHJo-bcYVjhJXO2ZvEHmSAv/view
+App demo: https://drive.google.com/file/d/1sK1pDl6SxQPQf2yV7sJvmSgb0EAwcKUb/view
 
 ## Description
 
-The Challenge for Module #13 asked us to refactor existing code in order to create routes for an ecommerce website. We were tasked with creating models based on specific criteria, and writing routes to display the information in the given database.
+The Challenge for Module #13 asked us to refactor existing code in order to create routes for an ecommerce website. We were tasked with creating models based on specific criteria, and writing routes to display and manipulate the information in the given database.
 
 ## Usage
 
